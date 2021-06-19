@@ -1,0 +1,179 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pageone {
+  background-image: url(../img/Overlay.png), url(../img/Photo5.jpg);
+  background-size: 100%;
+}
+.pageone-logo {
+  padding-top: 41px;
+}
+.headermenuUl {
+  list-style-image: url(../img/Active=False.png);
+  display: flex;
+  margin-left: 80px;
+  padding-top: 61px;
+}
+.headermenuUl:hover {
+  list-style-image: url(../img/Active=True.png);
+}
+.headermenuLi:not(:first-child) {
+  margin-left: 92px;
+}
+.headermenuUl2 {
+  margin-left: 141px;
+  display: flex;
+}
+.headermenuLi2 {
+  padding-top: 48px;
+  list-style-type: none;
+}
+.headermenuLi2:not(:first-child) {
+  margin-left: 24px;
+}
+.pageone-header {
+  display: flex;
+  justify-content: center;
+}
+.pageone-body {
+  text-align: center;
+  width: 100%;
+}
+.firstmaincontent {
+  padding-top: 262px;
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 96px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.firstsubcontent {
+  padding-top: 16px;
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+.arrowdown {
+  padding-bottom: 40px;
+  padding-top: 235px;
+  text-align: center;
+}
+.strangeline {
+  padding-top: 100px;
+  text-align: center;
+}
+.secondmaincontent {
+  text-align: center;
+  padding-top: 28px;
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+.trade img {
+  position: relative;
+}
+
+.whitesphere {
+  left: 215px;
+  top: 270px;
+}
+.thirdsubcontent {
+  margin-top: 235px;
+
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+.thirdmaincontent {
+  margin-top: 4px;
+
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+.smallcontent {
+  margin-top: 16px;
+
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #4b5562;
+}
+.buttonfirst {
+  margin-top: 32px;
+  width: 190px;
+  height: 50px;
+  border: 1px solid #2c4058;
+  background: #ffffff;
+  cursor: pointer;
+}
+.buttoninfofirst {
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2c4058;
+}
+.newyork {
+  margin-top: 44px;
+  margin-left: 225px;
+}
+.fourthsubcontent {
+  margin-top: 275px;
+}
+.fourthmaincontent {
+  margin-top: 4px;
+}
+.commerce {
+  text-align: center;
+}
+.bluesky {
+  padding-bottom: -200px;
+}
+.whitesphere {
+  padding-bottom: -200px;
+}
+.buttonsecond {
+  margin-top: 32px;
+  width: 190px;
+  height: 50px;
+  border: 1px solid #2c4058;
+  background: #ffffff;
+  cursor: pointer;
+}
+.honkong {
+  margin-top: 44px;
+}
+.brownhouse {
+  padding-top: 200px;
+}
